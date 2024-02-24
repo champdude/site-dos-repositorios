@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+@font-face {
+    font-family: 'XD';
+    src: url('XD') format('opentype');
+}
+
+
+
+body{
+    font-family: 'XD', Arial;
+    background-image: url('https://www.worldanvil.com/uploads/images/298a56906b159f5f0cce726734a9e17d.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+main{
+    margin: center;
+}
+
+h1{
+    text-align: center;
+   
+    color: white;
+    padding: 50px 0px;
+}
+
+div{
+    
+    background-color: #a6453c56;
+    border-radius: 7px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.507);
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+        
+      
+   
+}
+
+div > p{
+    text-align: center; 
+    padding: 10px;
+}
