@@ -45,4 +45,9 @@ div{
 div > p{
     text-align: center; 
     padding: 10px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
 }
