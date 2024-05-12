@@ -11,39 +11,64 @@
 
 body{
     font-family: 'XD', Arial;
-    background-image: url('https://www.worldanvil.com/uploads/images/298a56906b159f5f0cce726734a9e17d.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: black;
+    height: 100vh;
+    position: relative;
 }
 
 
 main{
-    margin: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+    background-color: rgba(0, 0, 0, 0.055);
+    height: 50vh;
+    width: 40vw;
+    background-color: rgba(128, 128, 128, 0.26);
 }
 
 h1{
     text-align: center;
-    color: black;
+    color: orangered;
     padding: 50px 0px;
 }
 
 div{
-    
-    background-color: #a6453c56;
-    border-radius: 7px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.507);
-    border: 1px solid black;
     padding: 10px;
     margin: 10px;
     color: white;
-        
-      
-   
+    text-align: center;
 }
 
 div > p{
-    text-align: center; 
     padding: 10px;
+}
+
+
+
+
+p#XD{
+    background-color: rgba(169, 169, 169, 0.226);
+    margin: 10px;
+    border-radius: 8px;
+}
+
+p#XD:hover{
+    background-color: greenyellow;
+}
+
+
+p#pog{
+    background-color: rgba(169, 169, 169, 0.226);
+    margin: 10px;
+    border-radius: 8px; 
+}
+
+p#pog:hover{
+    background-color: greenyellow;
 }
 
 a{
