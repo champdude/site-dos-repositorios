@@ -16,7 +16,7 @@
 
 
 body{
-    background-color: black;
+    background-color: lightblue;
 }
 
 main{
@@ -30,9 +30,9 @@ main{
 }
 
 section{
-    height: 70vh;
-    width: 70vw;
-    background-image: linear-gradient(to bottom, black, grey);
+    height: 60vh;
+    width: 60vw;
+    background-color: rgb(209, 209, 209);
     
     display: flex;
     flex-flow: row;
@@ -40,8 +40,8 @@ section{
     align-items: center;
 }
 
-h1{
-    
+
+h1{ 
     color: black;
     padding: 50px 0px;
 }
@@ -72,6 +72,16 @@ p#pog{
 }
 
 p#pog:hover{
+    background-color: greenyellow;
+}
+
+p#frog{
+    background-color: rgba(169, 169, 169, 0.226); 
+    margin: 10px;
+    border-radius: 8px;
+}
+
+p#frog:hover{
     background-color: greenyellow;
 }
 
