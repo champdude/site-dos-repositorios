@@ -12,6 +12,7 @@
     padding: 0px;
     font-family: 'XD', Arial;
     text-align: center;
+    box-sizing: border-box;
 }
 
 
@@ -30,14 +31,18 @@ main{
 }
 
 section{
-    height: 60vh;
-    width: 60vw;
-    background-color: rgb(209, 209, 209);
-    
     display: flex;
     flex-flow: row;
     justify-content: center;
     align-items: center;
+    
+    
+    
+
+
+    height: 60vh;
+    width: 70vw;
+    background-color: rgb(209, 209, 209);
 }
 
 
@@ -55,8 +60,8 @@ div > p{
 
 
 p#XD{
-    background-color: rgba(169, 169, 169, 0.226);
-    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.226);
+    margin: 5px;
     border-radius: 8px;
 }
 
@@ -66,8 +71,8 @@ p#XD:hover{
 
 
 p#pog{
-    background-color: rgba(169, 169, 169, 0.226);
-    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.226);
+    margin: 5px;
     border-radius: 8px; 
 }
 
@@ -76,10 +81,10 @@ p#pog:hover{
 }
 
 p#frog{
-    background-color: rgba(169, 169, 169, 0.226); 
-    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.226); 
+    margin: 5px;
     border-radius: 8px;
-}
+    }
 
 p#frog:hover{
     background-color: greenyellow;
