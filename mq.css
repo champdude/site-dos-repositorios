@@ -4,10 +4,21 @@
     body{
         background-image: linear-gradient(to top, lightblue, black);
     }
+
+    section{
+        height: 60vh;
+        width: 600px;
+    }
 }
+
 
 @media screen and (min-width: 992px){
     body{
         background-image: linear-gradient(to top, lightblue, black);
+    }
+
+    section{
+        height: 60vh;
+        width: 600px;
     }
 }
