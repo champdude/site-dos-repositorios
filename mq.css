@@ -3,11 +3,12 @@
 @media screen and (min-width: 768px) and (max-width: 992px){
     body{
         background-image: linear-gradient(to top, lightblue, black);
+        background-repeat: no-repeat;
     }
 
     section{
-        height: 60vh;
-        width: 600px;
+        height: 340px;
+        width: 60vw;
     }
 }
 
